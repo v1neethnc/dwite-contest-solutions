@@ -3,7 +3,7 @@
 
 from copy import deepcopy
 
-with open("2002_11_problem3.txt") as file_data:
+with open("../inputs/2002_11_problem3.txt") as file_data:
 
 	data = file_data.read().split("\n")
 	ind = 0
