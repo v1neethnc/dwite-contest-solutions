@@ -1,6 +1,7 @@
 # December 2002, Problem 1: DICE GAME
 # https://github.com/v1neethnc/dwite-contest-solutions
 
+
 with open("../inputs/2002_12_problem1.txt") as file_data:
 
 	# Create list of lists, with each sublist corresponding to a game

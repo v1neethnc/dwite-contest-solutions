@@ -1,6 +1,7 @@
 # November 2002, Problem 3: THE GAME OF LIFE
 # https://github.com/v1neethnc/dwite-contest-solutions
 
+
 from copy import deepcopy
 
 with open("../inputs/2002_11_problem3.txt") as file_data:

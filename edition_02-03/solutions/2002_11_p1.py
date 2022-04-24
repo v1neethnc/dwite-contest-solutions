@@ -1,6 +1,7 @@
 # November 2002, Problem 1: SALES! SALES! SALES!
 # https://github.com/v1neethnc/dwite-contest-solutions
 
+
 with open("../inputs/2002_11_problem1.txt") as file_data:
 
 	# Create the pairs of actual price and selling proce

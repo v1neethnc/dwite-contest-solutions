@@ -1,6 +1,7 @@
 # October 2002, Problem 4: WORD SEARCH
 # https://github.com/v1neethnc/dwite-contest-solutions
 
+
 def search(word, ind, row, col, mat, visited):
 
 	# Exit if the function has exhausted all the letters in the word

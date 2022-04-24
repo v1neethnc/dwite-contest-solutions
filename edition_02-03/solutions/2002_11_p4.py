@@ -1,6 +1,7 @@
 # November 2002, Problem 4: MONEY PRIZE
 # https://github.com/v1neethnc/dwite-contest-solutions
 
+
 with open("../inputs/2002_11_problem4.txt") as file_data:
 
 	# Read the data and create the grid

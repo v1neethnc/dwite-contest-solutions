@@ -1,6 +1,7 @@
 # December 2002, Problem 2: DECEMBER 25
 # https://github.com/v1neethnc/dwite-contest-solutions
 
+
 from math import floor
 with open("../inputs/2002_12_problem2.txt") as file_data:
 

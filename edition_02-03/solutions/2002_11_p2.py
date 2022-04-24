@@ -1,6 +1,7 @@
 # November 2002, Problem 2: THE FIVE M's OF STATS
 # https://github.com/v1neethnc/dwite-contest-solutions
 
+
 with open("../inputs/2002_11_problem2.txt") as file_data:
 
 	data = file_data.read().split("\n")
