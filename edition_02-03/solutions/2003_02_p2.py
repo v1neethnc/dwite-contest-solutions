@@ -2,7 +2,22 @@
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
-def subset_sum_counter(lst, i, curr_sum, lst_len, sum_to_check):
+# Function to count number of subsets whose sum is equal to a specified number
+def subset_sum_counter(lst: list, i: int, curr_sum: int, lst_len: int, sum_to_check: int) -> int:
+
+	"""
+	Calculate the total count of subsets of a list whose sum is equal to a given value
+
+	Parameters:
+		lst: 			(list) the list of elements to check
+		i: 				(int) the index of the element in the list to check
+		curr_sum: 		(int) the current running sum
+		lst_len: 		(int) the length of the list
+		sum_to_check: 	(int) the given sum to check against
+
+	Returns:
+		(int) the number of subsets whose sum is equal to sum_to_check
+	"""
 
 	# Return 1 if the current sum is equal to the sum to check for
 	if curr_sum == sum_to_check:

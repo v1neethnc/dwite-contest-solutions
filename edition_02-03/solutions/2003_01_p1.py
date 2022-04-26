@@ -3,8 +3,20 @@
 
 
 # Sieve of Eratosthenes to generate a boolean list where primes are represented by True
-def sieve_of_eratosthenes(n): 
-	prime = [True for i in range(n+1)] 
+def sieve_of_eratosthenes(n: int) -> list:
+
+	"""
+	Function based on the Sieve of Eratosthenes to generate prime numbers.
+
+	Parameters:
+		n: (int) number to generate primes up to
+	
+	Returns:
+		prime: (list) list of boolean values where prime[prime number] = True
+	"""
+
+	prime = [True for i in range(n+1)]
+	prime[0], prime[1] = False, False
 	p = 2
 	while (p * p <= n): 
 		if (prime[p] == True): 

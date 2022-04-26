@@ -3,7 +3,19 @@
 
 
 # Function to generate a list of possible sums under 8000000
-def generate_sum_list(ind, sum, lst):
+def generate_sum_list(ind: int, sum: int, lst: list) -> list:
+
+	"""
+	Function to generate the list of possible sums <= 8000000.
+	
+	Parameters:
+		ind: (int) index of current element in list
+		sum: (int) current running sum
+		lst: (list) list of numbers
+
+	Returns:
+		r1/res: (list) a list containing the numbers whose sum is <= 8000000
+	"""
 
 	# If the index has crossed the list
 	if ind == len(lst):

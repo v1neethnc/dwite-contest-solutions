@@ -3,6 +3,7 @@
 
 
 from math import floor
+
 with open("../inputs/2002_12_problem2.txt") as file_data:
 
 	# Create list of lists, with each sublist corresponding to a game

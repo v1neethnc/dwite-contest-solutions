@@ -3,6 +3,7 @@
 
 
 import operator as op
+
 with open("../inputs/2002_10_problem3.txt") as file_data:
 
 	# Reading the data and creating an operator map

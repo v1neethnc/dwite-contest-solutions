@@ -3,7 +3,19 @@
 
 
 # Convert any number in base 2-16 to base 10
-def get_base10_val(num, base):
+def get_base10_val(num: str, base: int) -> int:
+
+	"""
+	Function to take a number in a given base in the range [2, 16] and convert to decimal
+
+	Parameters:
+		num: (str) the number string in the given base
+		base: (int) the base of the given number
+	
+	Returns:
+		res: (int) decimal value of the given number in the given base
+	"""
+
 	vals = '0123456789ABCDEF'
 	res, exp = 0, 0
 
@@ -13,14 +25,28 @@ def get_base10_val(num, base):
 		exp += 1
 	return res
 
+
 # Convert decimal number to any base between 2-16
-def convert_base10_val(num, base):
+def convert_base10_val(num: int, base: int) -> str:
+
+	"""
+	Function to take a decimal number and convert to the given base in the range [2, 16]
+
+	Parameters:
+		num: (int) the decimal number
+		base: (int) the base to convert to
+	
+	Returns:
+		res: (str) the number in the target base
+	"""
+
 	res = ''
 	vals = '0123456789ABCDEF'
 	while num > 0:
 		res = vals[num % base] + res
 		num = num // base
 	return res
+
 
 with open("../inputs/2003_02_problem5.txt") as file_data:
 

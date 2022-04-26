@@ -2,7 +2,22 @@
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
-def search(word, ind, row, col, mat, visited):
+def search(word: str, ind: int, row: int, col: int, mat: list, visited: set) -> bool:
+
+	"""
+	Recursive function that takes a word and begins search at the (row, col) cell in matrix.
+
+	Parameters:
+		word: 		(string) the word to search for
+		ind: 		(int) the index of the letter currently searched
+		row: 		(int) the current row number
+		col: 		(int) the current column number
+		mat: 		(list[list]) 2D matrix where each cell is a single letter
+		visited: 	(set) set of coordinates indicating the characters already checked
+	
+	Returns:
+		tmp: (boolean) True if the word exists, False otherwise
+	"""
 
 	# Exit if the function has exhausted all the letters in the word
 	if ind == len(word):
@@ -29,6 +44,7 @@ def search(word, ind, row, col, mat, visited):
 	# Clear the visited nodes
 	visited.remove((row, col))
 	return tmp
+
 
 with open("../inputs/2002_10_problem4.txt") as file_data:
 

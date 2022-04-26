@@ -2,7 +2,20 @@
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
-def fifteen_counts(ind, sum, lst):
+# Function to count number of subsets adding to 15
+def fifteen_counts(ind: int, sum: int, lst: list) -> int:
+
+	"""
+	Count the number of subsets whose sum is 15.
+
+	Parameters:
+		ind: (int) the index to check in the list
+		sum: (int) the current sum
+		lst: (list) the list to check
+
+	Returns:
+		(int) the total number of subsets whose sum is 15 
+	"""
 
 	# If the index has crossed the list
 	if ind == len(lst):

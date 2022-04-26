@@ -5,7 +5,19 @@
 from math import sqrt
 
 # Function to calculate the GCD
-def gcd(a, b):
+def gcd(a: int, b: int) -> int:
+
+	"""
+	Iterative function to calculate the GCD of two numbers
+
+	Parameters:
+		a: (int) the larger number
+		b: (int) the smaller number
+	
+	Returns:
+		a: (int) the greatest common divisor of (a, b)
+	"""
+
 	while b:
 		a, b = b, a % b
 	return a

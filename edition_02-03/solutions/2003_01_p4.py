@@ -3,7 +3,20 @@
 
 
 # Function to calculate the partition
-def partition_calc(n, k):
+def partition_calc(n: int, k: int) -> int:
+
+	"""
+	Function based on the partition formula to calculate the number
+	of ways a given number n can be partitioned into k parts
+
+	Parameters:
+		n: (int) the number to partition
+		k: (int) the number of partitions
+	
+	Returns:
+		(int) the total number of possible partitions
+	"""
+
 	if n < k:
 		return 0
 	if k == 1:
