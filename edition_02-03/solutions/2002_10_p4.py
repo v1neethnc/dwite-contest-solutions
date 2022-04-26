@@ -39,7 +39,7 @@ def search(word: str, ind: int, row: int, col: int, mat: list, visited: set) -> 
 	# Check all eight directions
 	directions = [[1, 0], [0, 1], [-1, 0], [0, -1], [1, -1], [-1, 1], [-1, -1], [1, 1]]
 	for j in directions:
-		tmp = tmp or search(word, ind+1, row + j[0], col + j[1], matrix, visited)
+		tmp = tmp or search(word, ind+1, row + j[0], col + j[1], mat, visited)
 
 	# Clear the visited nodes
 	visited.remove((row, col))
