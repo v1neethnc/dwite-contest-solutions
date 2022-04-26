@@ -26,6 +26,7 @@ def partition_calc(n: int, k: int) -> int:
 	# p(n, k) = p(n-1, k-1) + p(n-k, k)
 	return partition_calc(n-1, k-1) + partition_calc(n-k, k)
 
+
 with open("../inputs/2003_01_problem4.txt") as file_data:
 
 	# Create list of lists, with each sublist corresponding to a case
