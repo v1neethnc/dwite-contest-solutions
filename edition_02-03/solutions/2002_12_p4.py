@@ -11,7 +11,7 @@ def sides_calc(p1, p2, p3):
 		   round(sqrt((p2[0] - p3[0])**2 + (p2[1] - p3[1])**2), 3)
 
 
-with open("2002_12_problem4.txt") as file_data:
+with open("../inputs/2002_12_problem4.txt") as file_data:
 
 	# Create list of lists, with each sublist corresponding to a case
 	data = [[int(j) for j in i.split(' ')] for i in file_data.read().split("\n")]

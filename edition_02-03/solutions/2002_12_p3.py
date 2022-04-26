@@ -14,6 +14,7 @@ def generate_sum_list(ind, sum, lst):
 
 		# Since there is nothing more to check, return the result
 		return res
+		
 	# Generate the lists consisting of the current number, and without the current number
 	r1 = generate_sum_list(ind + 1, sum + lst[ind], lst)
 	r2 = generate_sum_list(ind + 1, sum, lst)
@@ -24,7 +25,7 @@ def generate_sum_list(ind, sum, lst):
 
 
 # Using a meet-in-the-middle approach to solve this problem
-with open("2002_12_problem3.txt") as file_data:
+with open("../inputs/2002_12_problem3.txt") as file_data:
 
 	# Create list of lists, with each sublist corresponding to a case
 	data = [[int(j) for j in i.split(' ')] for i in file_data.read().split("\n")]
