@@ -1,4 +1,4 @@
-# November 2003, Problem 2: Palindromic Numbers
+# November 2003, Problem 3: Count Shapes II
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
@@ -43,6 +43,7 @@ def search(curr: tuple, grid: list, visited: set) -> int:
 
 	# Return the set of visited nodes
 	return visited
+
 
 with open("2003_11_problem3.txt") as file_data:
 
