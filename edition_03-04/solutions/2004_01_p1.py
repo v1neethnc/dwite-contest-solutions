@@ -1,4 +1,4 @@
-# December 2004, Problem 1: Clock Hands
+# January 2004, Problem 1: Clock Hands
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
