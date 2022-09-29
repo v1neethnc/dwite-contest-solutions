@@ -2,7 +2,7 @@
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
-with open("2003_12_problem2.txt") as file_data:
+with open("../inputs/2003_12_problem2.txt") as file_data:
 
 	# Create list from file
 	data = [list(map(int, line.split(' '))) for line in file_data.read().split('\n')]

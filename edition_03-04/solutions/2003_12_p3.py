@@ -45,7 +45,7 @@ def search(curr: tuple, dest: tuple, grid: list, visited: set) -> set:
 	return res_set
 
 
-with open("2003_12_problem3.txt") as file_data:
+with open("../inputs/2003_12_problem3.txt") as file_data:
 
 	# Create list from file
 	data = file_data.read().split('\n')

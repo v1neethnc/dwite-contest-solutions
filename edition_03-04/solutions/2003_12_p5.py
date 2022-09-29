@@ -50,7 +50,7 @@ def is_prime_sum(num: int, primes: list) -> bool:
 	return False
 
 
-with open("2003_12_problem5.txt") as file_data:
+with open("../inputs/2003_12_problem5.txt") as file_data:
 
 	# Create list from file
 	data = [int(i) for i in file_data.read().split('\n')]

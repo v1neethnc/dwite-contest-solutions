@@ -2,7 +2,7 @@
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
-with open("2003_11_problem2.txt") as file_data:
+with open("../inputs/2003_11_problem2.txt") as file_data:
 
 	# Create list, with each element corresponding to a case
 	data = list(map(int, file_data.read().split('\n')))

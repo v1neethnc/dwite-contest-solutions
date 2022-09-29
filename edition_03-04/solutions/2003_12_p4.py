@@ -2,7 +2,7 @@
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
-with open("2003_12_problem4.txt") as file_data:
+with open("../inputs/2003_12_problem4.txt") as file_data:
 
 	# Create list from file
 	data = file_data.read().split('\n')

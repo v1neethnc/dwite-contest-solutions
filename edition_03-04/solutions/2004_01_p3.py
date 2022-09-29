@@ -4,7 +4,7 @@
 
 import datetime
 
-with open("2004_01_problem3.txt") as file_data:
+with open("../inputs/2004_01_problem3.txt") as file_data:
 
 	# Create list from file
 	data = file_data.read().split('\n')

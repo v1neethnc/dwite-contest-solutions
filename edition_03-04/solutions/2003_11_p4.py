@@ -101,7 +101,7 @@ def worst_bin(lst: list) -> list:
 	return [10-i for i in bucket_list if i != 10]
 
 
-with open("2003_11_problem4.txt") as file_data:
+with open("../inputs/2003_11_problem4.txt") as file_data:
 
 	# Create list from file and initialize the index to read from data
 	data = list(map(int, file_data.read().split('\n')))

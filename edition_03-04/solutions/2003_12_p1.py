@@ -2,7 +2,7 @@
 # https://github.com/v1neethnc/dwite-contest-solutions
 
 
-with open("2003_12_problem1.txt") as file_data:
+with open("../inputs/2003_12_problem1.txt") as file_data:
 
 	# Create list from file and initialize the index to read from data
 	data = list(map(int, file_data.read().split('\n')))

@@ -24,7 +24,7 @@ def check_winner(p1_hand: str, p2_hand: str) -> int:
 	if p1_hand == hand_map[p2_hand]:
 		return 2
 
-with open("2003_11_problem1.txt") as file_data:
+with open("../inputs/2003_11_problem1.txt") as file_data:
 
 	# Create list of lists, with each second sublist corresponding to a case
 	data = [[j for j in i.split()] for i in file_data.read().split("\n")]

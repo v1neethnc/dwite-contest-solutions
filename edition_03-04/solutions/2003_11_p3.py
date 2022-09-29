@@ -45,7 +45,7 @@ def search(curr: tuple, grid: list, visited: set) -> int:
 	return visited
 
 
-with open("2003_11_problem3.txt") as file_data:
+with open("../inputs/2003_11_problem3.txt") as file_data:
 
 	# Create list from file and initialize the index to read from data
 	data = file_data.read().split('\n')
