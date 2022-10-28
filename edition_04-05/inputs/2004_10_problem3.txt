@@ -1,0 +1,13 @@
+12
+Jim 1.45 m
+Sally 187 cm
+Joey 1064 mm
+Roel 15.23 dm
+Karl 134 cm
+Melanie 18.9 dm
+Jill 1.54 m
+Sam 133 cm
+Joel 1877 mm
+Roger 17.83 dm
+Karen 178 cm
+Marnie 17.9 dm
